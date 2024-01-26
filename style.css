@@ -1,0 +1,131 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Oswald', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+.dark-bg{
+  background-color: #2B2B2B;
+}
+
+/* Homepage */
+.homepage{
+  background-image: linear-gradient(  rgba(43, 43, 43, 0.39), rgba(43, 43, 43, 0.9)), url(/images/homepage_bg.jpg);
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.navbar{
+  background-color: #FFFFFF;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.hp-btn {
+  background-color: #FF0000DE !important;
+}
+.hp-btn>a{
+  color: white!important;
+  text-decoration: none;
+}
+
+/* Second Page : About Us Page */
+.about_us_img{
+  border-radius: 12px;
+  filter: brightness(78%);
+}
+.text-aboutus{
+  color: #FF0000DE;
+  border-bottom: 2px solid #FF0000DE;
+}
+
+/* Our Services Page : Page 3 */
+.our_service_text{
+  border-bottom: 2px solid black;
+}
+
+.service-container {
+  display: flex;
+  overflow: hidden;
+}
+.service-box {
+  width: 200px;
+  flex: 0 0 auto;
+  animation: moveRighttoLeft 15s linear infinite alternate ; /* Adjust duration as needed*/
+}
+@keyframes moveRighttoLeft {
+  0% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(-570%);
+  }
+} 
+.card1{
+  border-radius: 12px !important;
+  border-width: 0px !important;
+}
+.card-img-bottom{
+  filter: brightness(50%);
+  border-bottom-left-radius: 12px!important;
+  border-bottom-right-radius: 12px!important;
+}
+
+
+/* Thrid Page : Testimonial Page */
+.testimonial-text{
+  color: #FF0000DE;
+  border-bottom: 2px solid white;
+}
+
+.testimonial-page{
+  background-image:linear-gradient( rgba(43, 43, 43, 0.9), rgba(43, 43, 43, 0.9)), url(/images/banner-1571858_640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-inner{
+  border-bottom: 2px solid white;
+}
+
+/* Forth Page: Price List Page */
+.info-text{
+  border-radius: 12px;
+  background-color: #FF000017;
+}
+.price{
+  color: #FF0000B3;
+}
+
+/* Fifth Page : Footer */
+.footer {
+  background-color: #2B2B2B;
+}
+.hours-list {
+  background-color: #2B2B2B!important;
+}
+
+/* 6ith Page */
+.wrapper .icon {
+  position: relative;
+  background-color: #2B2B2B;
+  border-radius: 50%;
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+.list2{
+  background-color: #2B2B2B!important;
+  color: white!important;
+  border-bottom: 2px solid white!important;
+}
+.credit{
+  text-decoration: none;
+  font-weight: bolder;
+}
